@@ -1,0 +1,473 @@
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: purple;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+
+
+h2.titulo{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: purple;
+}
+
+
+/*Estilo do cabeçalho */
+header{
+        padding: 40px 4%;
+        
+    }
+    
+header > .interface{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(128, 0, 128);
+    transform: scale(1.05);
+  
+}
+
+/*Estilo topo do Site*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: purple;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+    text-align: justify;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+/*Estilo Habilidade*/
+section.habilidades{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+section.habilidades .flex{
+    gap: 100px;
+}
+
+.habilidades .habilidades-box {
+    color: #fff;
+    padding: 40px; 
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff79;
+}
+    
+.habilidades .habilidades-box i {
+    font-size: 70px;
+    color: #b200ff;
+    
+}
+
+/*Estilo Projetos*/
+section.portfolio{
+    padding: 40px 4%;
+}
+
+section.portfolio .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.portfolio h1{
+    color: rgb(201, 99, 201);
+    font-size: 30px;
+    line-height: 40px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+.portfolio .txt-portfolio p{
+    color: #fff;
+    margin: 40px 0;
+    text-align: justify;
+    
+}
+
+.portfolio .img-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    margin: 40px 0;
+    .portfolio .img-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    margin: 40px 0;
+    text-align: center;
+    
+    
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.portfolio .img-arduino img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    margin: 40px 0;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.portfolio .img-plano img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    margin: 40px 0;
+    
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+    
+}
+
+.portfolio .img-arduino img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    margin: 40px 0;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.portfolio .img-plano img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    margin: 40px 0;
+    
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+/*Estilo Certificados*/
+section.certificado{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+section.certificado .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.certificado h1{
+    color: rgb(201, 99, 201);
+    font-size: 30px;
+    line-height: 40px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+/*Estilo Formulario de Contato*/
+section.formulario{
+    padding: 80px 4%;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: purple;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    
+
+}
+
+/*Estilo Rodapé*/
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+
+}
+
+footer .line-footer{
+    padding: 20px 0;
+
+}
+
+.borda{
+    border-top: 2px solid #b200ff;
+  
+}
+
+ btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: purple;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+footer .line-footer p i{
+    color: purple;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
+@media screen and (max-width: 1180px) {
+    /*Classes gerais*/
+    .flex{
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo{
+        font-size: 34px;
+        line-height: 31px;
+    }
+
+    /*Cabechalho*/
+    .menu-desktop{
+        display: none;
+    }
+
+    .btn-especifico button {
+        display: none; 
+    }
+
+    /*Topo site*/
+    section.topo-do-site .flex{
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;
+    
+    }
+    /*Habilidades*/
+    section.habilidades{
+        padding: 40px 8%;
+    }
+    /*Projetos*/
+    section.portfolio{
+        padding: 20px 08%;
+    }
+
+    .portfolio h1{
+        font-size: 25px;
+    }
+
+    .portfolio .img-site img{
+        width: 100%;
+        
+        
+    }
+
+    .portfolio .img-arduino img{
+        width: 100%;
+    }
+
+    .portfolio .img-plano img{
+        width: 100%;
+        
+    }
+    /*Certificados*/
+    .certificado .img-site img{
+        width: 100%;
+    }
+    /*Roda pé*/
+    footer .flex{
+        flex-direction: column;
+    
+    }
+
+    footer .line-footer{
+        text-align: center;
+       
+    
+    }
+
+
+}
+    
+
+
+
+    
+
+
+
+
